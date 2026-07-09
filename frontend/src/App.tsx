@@ -1,11 +1,7 @@
+import AppRouter from "./routes/AppRouter";
+
 function App() {
-  return (
-    <div className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold">
-        Social Media Scheduler
-      </h1>
-    </div>
-  );
+  return <AppRouter />;
 }
 
 export default App;

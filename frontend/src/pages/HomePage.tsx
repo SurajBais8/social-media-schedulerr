@@ -1,10 +1,9 @@
-import Navbar from "../components/Navbar";
-import HeroSection from "../components/HeroSection";
-import TrustedBrands from "../components/TrustedBrands";
-import FeaturesSection from "../components/FeaturesSection";
+import Navbar from "../components/landing/Navbar";
+import HeroSection from "../components/landing/HeroSection";
+import TrustedBrands from "../components/landing/TrustedBrands";
+import FeaturesSection from "../components/landing/FeaturesSection";
 import DashboardShowcase from "../components/DashboardShowcase";
-import AIStudioSection from "../components/AIStudioSection";
-
+import AIStudioSection from "../components/landing/AIStudioSection";
 function HomePage() {
   return (
     <>

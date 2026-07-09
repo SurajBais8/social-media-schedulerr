@@ -1,0 +1,50 @@
+# ==========================================
+# Social Media Scheduler - Root .gitignore
+# ==========================================
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*
+*.local
+
+# Logs
+*.log
+
+# Java / Spring Boot
+**/target/
+**/.mvn/
+**/.gradle/
+
+# Node.js
+**/node_modules/
+**/dist/
+**/.vite/
+**/coverage/
+
+# Build
+build/
+out/
+
+# Temporary
+*.tmp
+*.temp
+
+# IntelliJ
+*.iml
+
+# VS Code History
+.history/
+
+# MinIO
+minio-data/
+
+# Docker
+docker-data/

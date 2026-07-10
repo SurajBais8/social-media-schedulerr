@@ -1,10 +1,12 @@
 import { NavLink } from "react-router-dom";
+import { Bell } from "lucide-react";
 import {
   LayoutDashboard,
   CalendarDays,
   BarChart3,
   Bot,
   Settings,
+  User,
 } from "lucide-react";
 
 const menuItems = [
@@ -33,6 +35,16 @@ const menuItems = [
     icon: Settings,
     path: "/settings",
   },
+  {
+  title: "Notifications",
+  icon: Bell,
+  path: "/notifications",
+},
+{
+  title: "Profile",
+  icon: User,
+  path: "/profile",
+},
 ];
 
 function DashboardSidebar() {
